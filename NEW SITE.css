@@ -1,0 +1,138 @@
+nav
+{
+    position: fixed;
+    overflow: hidden;
+    float: right;
+    background-color: #FFFAE1;
+    width: 100%;
+    opacity: 2.5;
+}
+h1
+{
+    text-align:center;
+    color: #f5d0c7;
+    font-family: 'Dancing script', cursive;
+    font-size: 3em;
+    padding-top: 0px;
+}
+h3
+{
+    margin-top: 30px;
+    color: #f5d0c7;
+    text-align: center;
+}
+li
+{
+    float: right;
+    list-style-type: none;
+    font-size: 1.2;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+}
+#imgprin
+{
+    background-size: auto;
+    height: 750px;
+    padding-top: 60px;
+    background: url(https://wallpaperaccess.com/full/207837.jpg) no-repeat 50% 50%;
+
+
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+#logo
+{
+    float: left;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+body
+{
+    background-color: rgb(180, 130, 130);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: serif;
+}
+footer
+{
+    background-color:#524A3A ;
+    text-align: center;
+    color: #FFFAE1;
+    padding: 20px 0 10px 0;
+}
+form
+{
+    margin: 0 auto;
+    max-width: 900px;
+}
+input, textarea, button
+{
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 2px;
+    font-size: 1.2em;
+    font-family: 'advent pro sans-serif';
+    border-radius: 8px;
+}
+textarea
+{
+    height: 120px;
+}
+button
+{
+    font-size: 1.5em;
+    background-color: orange;
+
+}
+button:hover
+{
+    background-color: #FFFAE1;
+    color: orange;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+hr
+{
+    height: 1px;
+    width: 75%;
+    background-color: #FFFAE1;
+    margin: 60px auto;
+}
+#copyEticons
+{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+#copyright
+{
+    text-align: left;
+    width: 50%;
+    color: white;
+}
+#icons
+{
+    text-align: right;
+    width: 75%;
+}
+#icons a
+{
+    display: inline-block;
+    margin: 0 15px;
+    color: aliceblue;
+    font-size: 1.3em;
+}
+#icons a:hover
+{
+    transform: scale(1.5);
+    transition: 0.1s;
+
+
+}
+
